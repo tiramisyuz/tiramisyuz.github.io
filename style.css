@@ -6,19 +6,17 @@
 }
 
 .dark-grey {
-    background-color: #151515 !important;
+    background-color: #424242 !important;
 }
 
 .sidenav .brand-logo {
     font-size: 24px;
+    font-weight: bold;
     color: white;
-    font-family: 'Comic Sans MS';
-    font-weight: bolder;
 }
 
 .sidenav a {
-    color: white;
-    font-weight: 900;
+    color: white !important;
 }
 
 .sidenav a:hover {
@@ -30,8 +28,6 @@
 }
 
 .content {
-    background-color: black;
-    height: 100vh;
     margin-left: 300px;
     padding: 20px;
 }
