@@ -6,7 +6,7 @@ All art is made by Naga U. I am not affiiliated with them.
 
 Respect the art and not the creator
 
-## 🇯🇵
+# 🇯🇵 (DeepL translated)
 
 一部のアイコンをけもみみちゃんに置き換えたディスコードテーマ「Shiggycord」で使用する画像です。
 
