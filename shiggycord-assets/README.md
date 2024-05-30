@@ -14,3 +14,6 @@ Respect the art and not the creator
 すべてのアートはNaga U氏によるものです。
 
 クリエイターではなく、アートを尊重してください。
+
+
+Note: I have removed the backgrounds of some images manually
