@@ -2,6 +2,7 @@
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
+    color: white;
 }
 
 .dark-grey {
@@ -25,7 +26,7 @@
 }
 
 .sidenav .material-icons {
-    color: white;
+    color: white !important;
 }
 
 .content {
