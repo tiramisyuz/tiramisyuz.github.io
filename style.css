@@ -1,0 +1,57 @@
+* {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dark-grey {
+    background-color: #151515 !important;
+}
+
+.sidenav .brand-logo {
+    font-size: 24px;
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-weight: bolder;
+}
+
+.sidenav a {
+    color: white;
+    font-weight: 900;
+}
+
+.sidenav a:hover {
+    background-color: #616161 !important;
+}
+
+.sidenav .material-icons {
+    color: white;
+}
+
+.content {
+    background-color: black;
+    height: 100vh;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.themes-logo {
+    width: 300px;
+}
+
+.shiggycord-shiggy {
+    image-rendering: pixelated;
+    animation: squish 0.3s cubic-bezier(0, 1, .35, .97) infinite alternate;
+}
+
+@keyframes squish {
+    0% {
+        margin-left: 60px;
+        transform: scaleX(5) scaleY(0.8) translateY(-5px);
+    }
+
+    100% {
+        margin-left: 60px;
+        transform: scaleX(2) scaleY(4) translateY(-30px);
+    }
+}
