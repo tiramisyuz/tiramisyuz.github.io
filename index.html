@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>:3 - index</title>
-    <!-- Import MaterializeCSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <!-- Import Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <meta name="darkreader-lock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiramisu.gay</title>
+    <meta content="https://vencord.gov/" property="og:title" />
+    <meta content="The official government of Vencord" property="og:description" />
+    <meta content="./assets/viggy.gif" property="og:image" />
+    <meta content="#ffc0ca" data-react-helmet="true" name="theme-color" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-
-    <ul id="slide-out" class="sidenav sidenav-fixed dark-grey">
-        <li><a href="index.html" class="brand-logo waves-effect waves-light">:3</a></li>
-        <li><a href="about.html"><i class="material-icons waves-effect waves-light">info</i>About</a></li>
-        <li><a href="themes.html"><i class="material-icons waves-effect waves-light">palette</i>Themes</a></li>
-        <li><a href="https://github.com/wikiwedia" target="_blank"><i class="material-icons waves-effect waves-light">code</i>Github</a></li>
-    </ul>
-
-    <div class="content">
-        <h1>Welcome to My</h1>
-        <p>This is my.</p>
+    <div class="sidebar">
+        <div class="sidebar-buttons">
+            <p>tiramisu.<span class="rainbow-text">gay</span> <a href="https://discord.com/channels/1015060230222131221/1015060231060983891/1246567535122579597">(soon™️)</a></p>
+            <button class="sidebar-button" onclick="showPage('about')">
+                <i class="fas fa-info-circle"></i> About
+            </button>
+            <button class="sidebar-button" onclick="showPage('themes')">
+                <i class="fas fa-palette"></i> Themes
+            </button>
+        </div>
     </div>
+    <div class="content animate__animated" id="about">
+        <h1>About</h1>
+        <p>I'm a developer! I develop</p>
+    </div>
+    <div class="content animate__animated" id="themes" style="display:none;">
+        <h1>Themes</h1>
+        <p>Themes for things!</p>
+        <h2>Vencord</h2>
+        <p>These are themes specifically for Vencord. They work with any client mod; though</p>
+        <a href="https://github.com/wikiwedia/Flowercord">Flowercord 🌸</a>
+    </div>
+    <a href="https://github.com" target="_blank" class="github-icon">
+        <i class="fab fa-github"></i>
+    </a>
 
-    <!-- Import MaterializeJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

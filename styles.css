@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #171717;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: fixed;
+}
+
+.sidebar-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align items to the left */
+    gap: 20px;
+    padding-left: 20px;
+    /* Add padding to the left for spacing */
+}
+
+.sidebar-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+}
+
+.sidebar-button:hover {
+    transform: scale(1.1);
+}
+
+.github-icon {
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.2s ease;
+}
+
+.github-icon:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    margin-left: 250px;
+    padding: 40px;
+    width: 100%;
+    animation-duration: 0.4s;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a {
+    color: #82b8ff;
+    text-decoration: none;
+}
+
+.rainbow-text {
+    display: inline-flex;
+    background-image: linear-gradient(to left, violet, rgb(200, 123, 255), rgb(106, 106, 252), rgb(114, 255, 114), rgb(255, 255, 110), rgb(255, 189, 68), rgb(255, 105, 105));
+    -webkit-background-clip: text;
+    color: transparent;
+}
