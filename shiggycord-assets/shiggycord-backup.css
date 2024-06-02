@@ -1,0 +1,48 @@
+.noResultsImage__1a10e {
+    background-image: url(https://raw.githubusercontent.com/fres621/assets/main/shiggy.png) !important;
+    background-position: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+}
+
+/* No friends img */
+[style*='background-image: url("/assets/a53534212f318473a92f.svg");'],
+[style*='background-image: url("/assets/e6b6e9bd75fca528fd77.svg");'] {
+  background-image: url(https://files.catbox.moe/7qvcie.png) !important;
+    background-position: center;
+    background-size: calc(1100px/6) calc(1300px/6);
+    background-repeat: no-repeat;
+}
+
+/* No mutuals img */
+:root .emptyIconFriends_b554b1 {
+    background-image: url(https://github.com/wikiwedia/wikiwedia.github.io/blob/master/shiggycord-assets/shiggybox.png?raw=true) !important;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+:root .emptyIconGuilds_f8aeb2 {
+    background-image: url(https://github.com/wikiwedia/wikiwedia.github.io/blob/master/shiggycord-assets/rainbowshiggy.png?raw=true) !important;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+/* Gift inventory img */
+
+:root .emptyStateImage__3e0a5,
+:root .emptyStateImage_b41d12 {
+    background-image: url("https://github.com/wikiwedia/wikiwedia.github.io/blob/master/shiggycord-assets/shiggift.png?raw=true");
+    background-size: 100%;
+    image-rendering: unset;
+}
+
+/* Gamepad img (dev. options img) */
+
+[style*='background-image: url("/assets/36d4f8e0126393bbc6af.svg");'] {
+    background-image: url("https://github.com/wikiwedia/wikiwedia.github.io/blob/master/shiggycord-assets/shiggyworld.png?raw=true") !important;
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
