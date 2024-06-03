@@ -9,42 +9,54 @@
     <meta content="The official government of Vencord" property="og:description" />
     <meta content="https://wikiwedia.github.io/assets/viggy.gif" property="og:image" />
     <meta content="#ffc0ca" data-react-helmet="true" name="theme-color" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
+    <div id="mobileIndicator" style="display: none;"></div>
+
     <div class="sidebar">
         <div class="sidebar-buttons">
             <p>tiramisu.<span class="rainbow-text">gay</span> <a
                     href="https://discord.com/channels/1015060230222131221/1015060231060983891/1246567535122579597">(soon™️)</a>
             </p>
             <button class="sidebar-button" onclick="showPage('about')">
-                <i class="fas fa-info-circle"></i> About
+                <span class="material-symbols-rounded">info</span> About
             </button>
             <button class="sidebar-button" onclick="showPage('themes')">
-                <i class="fas fa-palette"></i> Themes
+                <span class="material-symbols-rounded">palette</span> Themes
             </button>
         </div>
+            <button onclick="spaghetti()" class="mobile-menubtn">
+                <span class="material-symbols-rounded">menu</span>
+            </button>
     </div>
-    <div class="content animate__animated" id="about">
+
+    <div class="content" id="about">
         <h1>About</h1>
         <p>read if cute</p>
     </div>
-    <div class="content animate__animated" id="themes" style="display:none;">
+    <div class="content" id="themes" style="display:none;">
         <h1>Themes</h1>
         <p>read if cute</p>
         <h1>Discord</h1>
         <a href="https://github.com/wikiwedia/Samaracord">Samaracord</a>
     </div>
     <a href="https://github.com/wikiwedia/wikiwedia.github.io" target="_blank" class="github-icon">
-        <i class="fab fa-github"></i>
+        <span class="material-symbols-rounded">code</span>
     </a>
 
+    <div class="viggyJail">
+        <img style="transform: translate(200px, 100px);" data-x="200" data-y="100" class="shiggyImg" src="assets/viggy.gif" alt="Shiggy :3">
+    </div>
+
+
     <script src="script.js"></script>
+
 </body>
 
 </html>

@@ -1,24 +1,37 @@
+@font-face {
+    font-family: 'Valera Round';
+    src: url('assets/VarelaRound-Regular.ttf');
+}
+
 * {
     user-select: none;
+    font-family: 'SF Pro Rounded', 'Valera Round', sans-serif;
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
     background-color: #212121;
     color: #fff;
     display: flex;
 }
 
 .sidebar {
-    background-color: #171717;
     width: 250px;
-    height: 100vh;
+    height: calc(100vh - 40px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 7px 0;
     position: fixed;
+    background: rgba(45, 45, 45, 0.3);
 }
 
 .sidebar-buttons {
@@ -63,6 +76,7 @@ body {
 }
 
 .content {
+    position: fixed;
     margin-left: 250px;
     padding: 40px;
     width: 100%;
@@ -89,4 +103,73 @@ a {
     background-image: linear-gradient(to left, violet, rgb(200, 123, 255), rgb(106, 106, 252), rgb(114, 255, 114), rgb(255, 255, 110), rgb(255, 189, 68), rgb(255, 105, 105));
     -webkit-background-clip: text;
     color: transparent;
+}
+
+@keyframes slideOutUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-out-up {
+    animation: slideOutUp 0.5s forwards cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.slide-in-up {
+    animation: slideInUp 0.5s forwards cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.shiggyImg {
+touch-action: none;
+    user-select: none;
+}
+
+.viggyJail {
+    width: 100%;
+    height: 100vh;
+}
+
+.mobile-menubtn {
+    display: none;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    #mobileIndicator {
+        display: block;
+    }
+    .sidebar {
+        margin-left: -202px;
+    }
+    .content {
+        margin-left: 25px;
+    }
+    .mobile-menubtn {
+        display: block;
+        right: 0;
+        position: absolute;
+        margin: 10px;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
 }
