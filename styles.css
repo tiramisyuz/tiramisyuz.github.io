@@ -80,6 +80,7 @@ body {
     margin-left: 250px;
     padding: 40px;
     animation-duration: 0.4s;
+    width: calc(100% - 300px);
 }
 
 h1 {
