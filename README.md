@@ -1,4 +1,29 @@
-# Shiggy
+# Wikiwedia
+
+___
+
+> welcome fellow ladies and gents and everyone in between although i never wanted to include that part idk why i added it
+> enough of thou rant
+## This is wikiwedia
+> No one really know why it exists but its here for some reason
+> 🦆 Here is an emoji to make readme look more professional
+
+## star history
+> notice how its at an all time low
+
+<a href="https://star-history.com/#wikiwedia/wikiwedia.github.io&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline" />
+  </picture>
+</a>
+
+## irrelevant things under here
+
+`caution: brain damage imminent`
+
+### Shiggy
 
 A toothbrush is an oral hygiene tool used to clean the teeth, gums, and tongue. It consists of a head of tightly clustered bristles, atop of which toothpaste can be applied, mounted on a handle which facilitates the cleaning of hard-to-reach areas of the mouth. They should be used in conjunction with something to clean between the teeth where the bristles of the toothbrush cannot reach - for example floss, tape or interdental brushes.
 
