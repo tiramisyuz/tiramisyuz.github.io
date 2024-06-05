@@ -4,7 +4,7 @@ ___
 
 > welcome fellow ladies and gents and everyone in between although i never wanted to include that part idk why i added it
 > enough of thou rant
-# > This is wikiwedia
+## This is wikiwedia
 > No one really know why it exists but its here for some reason
 > 🦆 Here is an emoji to make readme look more professional
 
