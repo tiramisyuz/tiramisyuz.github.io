@@ -9,7 +9,7 @@ ___
 > 🦆 Here is an emoji to make readme look more professional  
 
 ## star history
-> notice how its at an all time low
+> notice how its at an all time high
 
 <a href="https://star-history.com/#wikiwedia/wikiwedia.github.io&Timeline">
   <picture>
@@ -21,7 +21,7 @@ ___
 
 ## irrelevant things under here
 
-`caution: brain damage imminent`
+`caution: no brain damage imminent`
 
 ### Shiggy
 
