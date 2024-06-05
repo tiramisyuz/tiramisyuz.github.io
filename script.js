@@ -15,16 +15,17 @@ function showPage(pageId) {
                 page.style.display = 'none';
                 page.classList.remove('slide-out-up');
             }, { once: true });
-            // subsequently animate the new page in
-            activePage.style.display = 'block';
-            requestAnimationFrame(() => {
-                activePage.classList.add('slide-in-up');
-                activePage.addEventListener('animationend', () => {
-                activePage.classList.remove('slide-in-up');
-                isAnimating = false;
-                }, { once: true });
-            });
         }
+    });
+
+    // Animate the new page in
+    activePage.style.display = 'block';
+    requestAnimationFrame(() => {
+        activePage.classList.add('slide-in-up');
+        activePage.addEventListener('animationend', () => {
+            activePage.classList.remove('slide-in-up');
+            isAnimating = false;
+        }, { once: true });
     });
 }
 
