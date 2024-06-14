@@ -1,21 +1,24 @@
-# Wikiwedia
+# tiramisu.gay
+source code for tiramisu.gay
+
+you can pr and add whatever you want down below just nothing offensive
 
 ___
 
 > welcome fellow ladies and gents and everyone in between although i never wanted to include that part idk why i added it  
 > enough of thou rant  
-## This is wikiwedia
+## This is tiramisu.gay
 > No one really know why it exists but its here for some reason  
 > 🦆 Here is an emoji to make readme look more professional  
 
 ## star history
 > notice how its at an all time high
 
-<a href="https://star-history.com/#wikiwedia/wikiwedia.github.io&Timeline">
+<a href="https://star-history.com/#tiramisyuz/tiramisyuz.github.io&Timeline">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wikiwedia/wikiwedia.github.io&type=Timeline" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tiramisyuz/tiramisyuz.github.io&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tiramisyuz/tiramisyuz.github.io&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tiramisyuz/tiramisyuz.github.io&type=Timeline" />
   </picture>
 </a>
 
