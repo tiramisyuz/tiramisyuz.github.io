@@ -1,0 +1,21 @@
+{
+  "name": "tiramisyuz.github.io",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.13.6",
+    "@suid/icons-material": "*",
+    "@suid/material": "*",
+    "solid-js": "*"
+  },
+  "devDependencies": {
+    "@suid/vite-plugin": "*",
+    "typescript": "^4.8.2",
+    "vite": "*",
+    "vite-plugin-solid": "*"
+  }
+}

@@ -1,59 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <title>tiramisu.gay</title>
-    <meta content="vencord.gov" property="og:title" />
-    <meta content="The official government of Vencord" property="og:description" />
-    <meta content="https://wikiwedia.github.io/assets/viggy.gif" property="og:image" />
-    <meta content="#ffc0ca" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-</head>
+  </head>
 
-<body>
-    <div id="mobileIndicator" style="display: none;"></div>
-
-    <div class="sidebar">
-        <div class="sidebar-buttons">
-            <p>tiramisu.gay</p>
-            <button class="sidebar-button" onclick="showPage('about')">
-                <span class="material-symbols-rounded">info</span> About
-            </button>
-            <button class="sidebar-button" onclick="showPage('themes')">
-                <span class="material-symbols-rounded">palette</span> Themes
-            </button>
-        </div>
-            <button onclick="spaghetti()" class="mobile-menubtn">
-                <span class="material-symbols-rounded">menu</span>
-            </button>
-    </div>
-
-    <div class="content" id="about">
-        <img src="https://files.catbox.moe/aoqgse.gif">
-    </div>
-    <div class="content" id="themes" style="display:none;">
-        <h1>Themes</h1>
-        <p>read if cute</p>
-        <h1>Discord</h1>
-        <p style="opacity: .6;" inert>no themes (samaracord is dead)</p>
-    </div>
-    <a href="https://github.com/wikiwedia/wikiwedia.github.io" target="_blank" class="github-icon">
-        <span class="material-symbols-rounded">code</span>
-    </a>
-
-    <div class="viggyJail">
-        <img style="transform: translate(200px, 100px);" data-x="200" data-y="100" class="shiggyImg" src="assets/viggy.gif" alt="Shiggy :3">
-    </div>
-
-
-    <script src="script.js"></script>
-
-</body>
-
+  <body>
+    <noscript>You need to enable JavaScript to run this app. (sorry)</noscript>
+    <div id="root"></div>
+    <script src="/src/index.tsx" type="module"></script>
+  </body>
 </html>
